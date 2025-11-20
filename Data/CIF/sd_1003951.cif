@@ -1,0 +1,225 @@
+##CIF_1.1
+
+data_sm_global
+#Used dictionaries
+loop_
+_audit_conform_dict_name
+_audit_conform_dict_version
+_audit_conform_dict_location
+cif_core.dic 	2.4.2 	.
+cif_pd.dic 		1.0.1 	.
+cif_sm.dic 		0.1 	'redaktion.landolt-boernstein(at)springer.com'
+
+#About this content and reference
+_sm_credits_copyright
+;PAULING FILE Multinaries Edition - 2012. SpringerMaterials Release 2014.
+http://www.paulingfile.com
+Unique LPF ID Number SD1003951
+Project Coordinator: Shuichi Iwata
+Section-Editors: Karin Cenzual (Crystal Structures), Hiroaki Okamoto (Phase 
+Diagrams), Fritz Hulliger (Physical Properties)
+(c) Springer & Material Phases Data System (MPDS), Switzerland & National 
+Institute for Materials Science (NIMS), Japan 2014.
+(Data generated pre-2002: (c) Springer & MPDS & NIMS; 
+post-2001: (c) Springer & MPDS)
+All Rights Reserved. Version 2014.06.
+;
+
+_audit_creation_method
+;This data have been compiled from the crystallographic datasheet for 
+"Bi4NbO8Cl (NbBi4ClO8 ht, <i>T</i> = 323 K) Crystal Structure" 
+taken from SpringerMaterials (sm_isp_sd_1003951).
+;
+
+_publ_section_references
+;Kusainova A.M., Stefanovich S.Y., Dolgikh V.A., Mosunov A.V., Hervoches C.H., Lightfoot P.: <i>Dielectric properties and structure of Bi<sub>4</sub>NbO<sub>8</sub>Cl and Bi<sub>4</sub>TaO<sub>8</sub>Cl</i>. Journal of Materials Chemistry <b>11</b> (2001) 1141-1145.
+;
+
+#Phase classification
+_sm_phase_labels				'NbBi4ClO8 ht'
+_chemical_name_mineral			''
+_sm_chemical_compound_class		'chloride, oxide'
+_sm_phase_prototype				'NbBi4 ClO8 '
+_sm_pearson_symbol				'oP56'
+_symmetry_Int_Tables_number		33
+_sm_sample_details
+;sample prepared from BiOCl, Bi<sub>2</sub>O<sub>3</sub>, Nb<sub>2</sub>O<sub>5</sub>, 
+powder (determination of cell and structural parameters)
+;
+_sm_measurement_details
+;automatic diffractometer (determination of cell parameters), 
+automatic diffractometer; United Kingdom, Chilton-Didcot, Rutherford Appleton Laboratory, ISIS Facility (determination of structural parameters), 
+neutrons, time-of-flight (determination of cell and structural parameters), 
+<i>T</i> = 323 K (determination of cell and structural parameters)
+;
+_sm_interpretation_details
+;complete structure determined, 
+Rietveld refinement; 68 variables; 1807 reflections, 
+<i>wR</i><sub>P</sub> = 0.065
+;
+
+data_sm_isp_SD1003951-standardized_unitcell
+#Cell Parameters
+_cell_length_a					28.8125
+_cell_length_b					5.4901
+_cell_length_c					5.4472
+_cell_angle_alpha				90
+_cell_angle_beta				90
+_cell_angle_gamma				90
+_sm_length_ratio_ab				5.248
+_sm_length_ratio_bc				1.008
+_sm_length_ratio_ca				0.189
+_cell_volume 					861.7
+_symmetry_space_group_name_H-M	'Pna21'
+_symmetry_Int_Tables_number		33
+_cell_formula_units_Z			4
+_sm_cell_transformation
+;new axes c,-b,a; -x,-y,-z; origin shift 0 0 0.46900
+;
+
+#Atom Coordinates
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_sm_site_symmetry
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_sm_coordination_number
+_sm_atomic_environment_type
+Cl1 'Cl' .4a .1 0.0011 0.238 0.01 1 20 'pseudo Frank-Kasper (20), Bi<sub>8</sub>O<sub>8</sub>Cl<sub>4</sub>'
+Bi2 'Bi' .4a .1 0.0673 0.247 0.527 1 4 'non-coplanar square, O<sub>4</sub>'
+O2 'O' .4a .1 0.1022 0.005 0.268 1 3 'non-coplanar triangle , Bi<sub>3</sub>'
+O4 'O' .4a .1 0.106 0.496 0.264 1 3 'non-coplanar triangle , Bi<sub>3</sub>'
+Bi1 'Bi' .4a .1 0.1569 0.186 0.031 1 4 'tetrahedron, central atom outside, O<sub>4</sub>'
+O6 'O' .4a .1 0.1818 0.256 0.442 1 1 'single atom, Nb'
+Nb1 'Nb' .4a .1 0.2484 0.257 0.517 1 6 'octahedron, O<sub>6</sub>'
+O8 'O' .4a .1 0.259 0.055 0.231 1 2 'non-collinear, Nb<sub>2</sub>'
+O7 'O' .4a .1 0.2642 0.476 0.232 1 2 'non-collinear, Nb<sub>2</sub>'
+O5 'O' .4a .1 0.3171 0.313 0.599 1 3 'non-coplanar triangle , NbBi<sub>2</sub>'
+Bi3 'Bi' .4a .1 0.3425 0.221 0 1 9 'bicapped hexagonal pyramid, O<sub>9</sub>'
+O3 'O' .4a .1 0.3918 0.016 0.264 1 3 'non-coplanar triangle , Bi<sub>3</sub>'
+O1 'O' .4a .1 0.3947 0.484 0.26 1 2 'non-collinear, Bi<sub>2</sub>'
+Bi4 'Bi' .4a .1 0.4319 0.246 0.508 1 4 'non-coplanar square, O<sub>4</sub>'
+
+_sm_atom_site_transformation
+;new axes c,-b,a; -x,-y,-z; origin shift 0 0 0.46900
+;
+
+#Isotropic Displacement Parameters
+loop_
+_atom_site_label_1
+_atom_site_U_iso_or_equiv
+_sm_atom_site_isotropic_displacement_parameter_type
+_atom_site_B_equiv_geom_mean
+Nb1 0.00006(1) 'Uiso' ?
+Bi1 0.00022(3) 'Uiso' ?
+Bi2 0.00015(3) 'Uiso' ?
+Bi3 0.00027(3) 'Uiso' ?
+Bi4 0.00006(2) 'Uiso' ?
+Cl1 0.0002(1) 'Uiso' ?
+O1 0.00006(4) 'Uiso' ?
+O2 0.00012(4) 'Uiso' ?
+O3 0.00014(4) 'Uiso' ?
+O4 0.00014(4) 'Uiso' ?
+O5 0.00002(2) 'Uiso' ?
+O6 0.00086(7) 'Uiso' ?
+O7 0.00024(4) 'Uiso' ?
+O8 0.00043(4) 'Uiso' ?
+
+data_sm_isp_SD1003951-published_cell
+#Cell Parameters
+_cell_length_a					5.4472(1)
+_cell_length_b					5.4901(1)
+_cell_length_c					28.8125(6)
+_cell_angle_alpha				90
+_cell_angle_beta				90
+_cell_angle_gamma				90
+_sm_length_ratio_ab				0.992
+_sm_length_ratio_bc				0.191
+_sm_length_ratio_ca				5.289
+_cell_volume 					861.66
+_symmetry_space_group_name_H-M	'P21cn'
+_symmetry_Int_Tables_number		33
+_cell_formula_units_Z			4
+
+#Atom Coordinates
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_sm_site_symmetry
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_sm_coordination_number
+_sm_atomic_environment_type
+Nb1 'Nb' .4a .1 0.014(4) 0.243(1) 0.2516(6) 1 ? '?'
+Bi1 'Bi' .4a .1 0 0.814(2) 0.1569(4) 1 ? '?'
+Bi2 'Bi' .4a .1 0.004(3) 0.253(2) 0.4327(4) 1 ? '?'
+Bi3 'Bi' .4a .1 0.031(2) 0.779(2) 0.3425(4) 1 ? '?'
+Bi4 'Bi' .4a .1 0.023(3) 0.254(2) 0.0681(4) 1 ? '?'
+Cl1 'Cl' .4a .1 0.521(4) 0.238(2) -0.0011(6) 1 ? '?'
+O1 'O' .4a .1 0.771(4) 0.516(3) 0.3947(5) 1 ? '?'
+O2 'O' .4a .1 0.263(5) 0.495(3) 0.3978(5) 1 ? '?'
+O3 'O' .4a .1 0.767(5) -0.016(3) 0.3918(5) 1 ? '?'
+O4 'O' .4a .1 0.267(6) 0.004(3) 0.394(5) 1 ? '?'
+O5 'O' .4a .1 0.432(3) 0.687(2) 0.3171(4) 1 ? '?'
+O6 'O' .4a .1 0.589(5) 0.744(5) 0.1818(10) 1 ? '?'
+O7 'O' .4a .1 0.299(4) 0.024(3) 0.2358(5) 1 ? '?'
+O8 'O' .4a .1 -0.2(5) -0.055(3) 0.259(7) 1 ? '?'
+
+#Isotropic Displacement Parameters
+loop_
+_atom_site_label_1
+_atom_site_U_iso_or_equiv
+_sm_atom_site_isotropic_displacement_parameter_type
+_atom_site_B_equiv_geom_mean
+Nb1 0.00006(1) 'Uiso' ?
+Bi1 0.00022(3) 'Uiso' ?
+Bi2 0.00015(3) 'Uiso' ?
+Bi3 0.00027(3) 'Uiso' ?
+Bi4 0.00006(2) 'Uiso' ?
+Cl1 0.0002(1) 'Uiso' ?
+O1 0.00006(4) 'Uiso' ?
+O2 0.00012(4) 'Uiso' ?
+O3 0.00014(4) 'Uiso' ?
+O4 0.00014(4) 'Uiso' ?
+O5 0.00002(2) 'Uiso' ?
+O6 0.00086(7) 'Uiso' ?
+O7 0.00024(4) 'Uiso' ?
+O8 0.00043(4) 'Uiso' ?
+
+data_sm_isp_SD1003951-niggli_reduced_cell
+#Cell Parameters
+_cell_length_a					5.4472
+_cell_length_b					5.4901
+_cell_length_c					28.8125
+_cell_angle_alpha				90
+_cell_angle_beta				90
+_cell_angle_gamma				90
+_sm_length_ratio_ab				0.992
+_sm_length_ratio_bc				0.191
+_sm_length_ratio_ca				5.289
+_cell_volume 					861.66
+_symmetry_space_group_name_H-M	''
+_symmetry_Int_Tables_number		?
+_cell_formula_units_Z			4
+
+#Atom Coordinates
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_sm_site_symmetry
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_sm_coordination_number
+_sm_atomic_environment_type
+? ? ? ? ? ? ? ? ? ?
+
