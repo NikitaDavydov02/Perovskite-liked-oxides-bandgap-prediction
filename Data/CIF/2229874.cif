@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------
-#$Date: 2016-02-20 22:30:07 +0200 (Sat, 20 Feb 2016) $
-#$Revision: 176789 $
-#$URL: svn://www.crystallography.net/cod/cif/2/22/98/2229874.cif $
+#$Date: 2025-08-19 16:18:28 +0300 (Tue, 19 Aug 2025) $
+#$Revision: 301805 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/22/98/2229874.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -31,8 +31,7 @@ _journal_page_last               m445
 _journal_paper_doi               10.1107/S1600536811008919
 _journal_volume                  67
 _journal_year                    2011
-_chemical_formula_iupac
-'[Ni (C8 H5 N O4) (C12 H8 N2) (H2 O)3], 3H2 O'
+_chemical_formula_iupac          '[Ni (C8 H5 N O4) (C12 H8 N2) (H2 O)3], 3H2 O'
 _chemical_formula_moiety         'C20 H19 N3 Ni O7, 3H2 O'
 _chemical_formula_sum            'C20 H25 N3 Ni O10'
 _chemical_formula_weight         526.14
@@ -553,3 +552,8 @@ C16 C18 C19 C20 . . . . 2.0(4) ?
 C17 N3 C20 C19 . . . . -1.5(3) ?
 Ni1 N3 C20 C19 . . . . 173.77(18) ?
 C18 C19 C20 N3 . . . . -0.3(4) ?
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 PubChem 168310002

@@ -1,6 +1,6 @@
 #------------------------------------------------------------------------------
-#$Date: 2017-10-13 11:42:48 +0300 (Fri, 13 Oct 2017) $
-#$Revision: 201978 $
+#$Date: 2025-08-19 16:18:28 +0300 (Tue, 19 Aug 2025) $
+#$Revision: 301805 $
 #$URL: file:///home/coder/svn-repositories/cod/cif/2/22/98/2229875.cif $
 #------------------------------------------------------------------------------
 #
@@ -679,3 +679,4 @@ _cod_related_entry_id
 _cod_related_entry_database
 _cod_related_entry_code
 1 ChemSpider 30656619
+2 PubChem 123512817
