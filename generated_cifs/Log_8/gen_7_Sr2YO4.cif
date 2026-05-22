@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Sr2YO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.31752200
+_cell_length_b   4.31976800
+_cell_length_c   7.11501200
+_cell_angle_alpha   107.77438800
+_cell_angle_beta   107.74683500
+_cell_angle_gamma   89.96502400
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2YO4
+_chemical_formula_sum   'Sr2 Y1 O4'
+_cell_volume   119.72543482
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.60741500  0.96061700  0.59313100  1
+  O  O1  1  0.13572000  0.48960800  0.65051600  1
+  Y  Y2  1  0.96336800  0.31698800  0.30463100  1
+  Sr  Sr3  1  0.31879300  0.67257200  0.01538600  1
+  O  O4  1  0.46301100  0.31831800  0.30451100  1
+  O  O5  1  0.96224100  0.81660400  0.30387100  1
+  O  O6  1  0.79033300  0.14445200  0.95861200  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_VFeO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.14717200
+_cell_length_b   5.14588300
+_cell_length_c   5.53903800
+_cell_angle_alpha   62.27760100
+_cell_angle_beta   62.24893700
+_cell_angle_gamma   59.95853600
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VFeO3
+_chemical_formula_sum   'V2 Fe2 O6'
+_cell_volume   107.11298673
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.11296700  0.63943400  0.55566700  1
+  V  V1  1  0.31915100  0.84502200  0.93716400  1
+  V  V2  1  0.81841300  0.34583000  0.43709200  1
+  O  O3  1  0.02494600  0.24661100  0.73314000  1
+  O  O4  1  0.52541700  0.44068800  0.23435400  1
+  O  O5  1  0.91509000  0.74691600  0.23369500  1
+  Fe  Fe6  1  0.61335100  0.13996300  0.05498500  1
+  O  O7  1  0.41530000  0.55176900  0.73371600  1
+  O  O8  1  0.21981400  0.05183800  0.23395800  1
+  O  O9  1  0.72042300  0.94241800  0.73332300  1

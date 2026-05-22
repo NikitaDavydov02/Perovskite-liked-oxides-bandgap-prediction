@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LuTiO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.60402900
+_cell_length_b   5.58576500
+_cell_length_c   5.58878300
+_cell_angle_alpha   108.51648800
+_cell_angle_beta   106.28890400
+_cell_angle_gamma   114.03545000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LuTiO4
+_chemical_formula_sum   'Lu2 Ti2 O8'
+_cell_volume   133.46555847
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.19863200  0.57517100  0.19689900  1
+  Lu  Lu1  1  0.45263700  0.32436800  0.70005600  1
+  Ti  Ti2  1  0.70021300  0.07372600  0.19882100  1
+  Lu  Lu3  1  0.94846400  0.82361900  0.69869100  1
+  O  O4  1  0.76538800  0.32553800  0.01381900  1
+  O  O5  1  0.63386800  0.82381100  0.38343700  1
+  O  O6  1  0.26625600  0.82580600  0.01400800  1
+  O  O7  1  0.19866300  0.28262600  0.90596500  1
+  O  O8  1  0.70049200  0.36477100  0.48915500  1
+  O  O9  1  0.20048600  0.86494600  0.49024200  1
+  O  O10  1  0.69918000  0.78397700  0.90621600  1
+  O  O11  1  0.13506400  0.32289100  0.38231000  1

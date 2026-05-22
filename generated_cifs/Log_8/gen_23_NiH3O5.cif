@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_NiH3O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.22520100
+_cell_length_b   4.87418100
+_cell_length_c   5.56445800
+_cell_angle_alpha   109.09985400
+_cell_angle_beta   86.61961900
+_cell_angle_gamma   75.95958600
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiH3O5
+_chemical_formula_sum   'Ni1 H3 O5'
+_cell_volume   79.27106268
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.50199900  0.81958400  0.22413000  1
+  O  O1  1  0.21507900  0.61665300  0.71765600  1
+  O  O2  1  0.75099000  0.98383100  0.78965700  1
+  Ni  Ni3  1  0.35258700  0.22586900  0.43603500  1
+  H  H4  1  0.45831700  0.69914200  0.69145400  1
+  O  O5  1  0.81270800  0.13321700  0.65250700  1
+  H  H6  1  0.28205700  0.79385700  0.10908600  1
+  O  O7  1  0.84299500  0.32522400  0.27680100  1
+  H  H8  1  0.74824800  0.52238800  0.24600000  1

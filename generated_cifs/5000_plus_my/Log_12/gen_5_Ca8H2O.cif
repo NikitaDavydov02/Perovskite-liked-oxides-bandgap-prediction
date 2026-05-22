@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Ca8H2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.10296300
+_cell_length_b   7.33608000
+_cell_length_c   7.33597600
+_cell_angle_alpha   90.69318500
+_cell_angle_beta   89.91553400
+_cell_angle_gamma   89.99205200
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca8H2O
+_chemical_formula_sum   'Ca8 H2 O1'
+_cell_volume   274.60732523
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.98992500  0.32542900  0.07559600  1
+  Ca  Ca1  1  0.48971600  0.56121400  0.80894600  1
+  Ca  Ca2  1  0.49211500  0.08677700  0.34109400  1
+  Ca  Ca3  1  0.99278600  0.82430500  0.57691000  1
+  O  O4  1  0.48742900  0.32489500  0.57379600  1
+  Ca  Ca5  1  0.49251600  0.09329100  0.80824500  1
+  Ca  Ca6  1  0.49227400  0.55417900  0.34307400  1
+  H  H7  1  0.99188700  0.55520200  0.80846400  1
+  Ca  Ca8  1  0.98913900  0.32396200  0.57388900  1
+  Ca  Ca9  1  0.98993200  0.82663800  0.07437800  1
+  H  H10  1  0.99061900  0.09088900  0.34285000  1

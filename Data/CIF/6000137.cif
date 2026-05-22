@@ -1,0 +1,50 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-09 20:42:54 +0200 (Tue, 09 Feb 2016) $
+#$Revision: 176292 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/6/00/01/6000137.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_6000137
+loop_
+_publ_author_name
+'Chan, J. Y.'
+'Levin, I.'
+'Vanderah, T. A.'
+'Geyer, R. G.'
+'Roth, R. S.'
+_publ_section_title
+;
+ Subsolidus phase relations and dielectric properties in the
+ SrO-Al2O3-Nb2O5 system
+;
+_journal_name_full
+;
+ International Journal of Inorganic Materials
+;
+_journal_page_first              107
+_journal_page_last               114
+_journal_paper_doi               10.1016/S1466-6049(00)00014-3
+_journal_volume                  2
+_journal_year                    2000
+_chemical_formula_sum            'Al Nb O6 Sr2'
+_space_group_name_H-M_alt        Fm3m
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_length_a                   7.7791
+_cell_length_b                   7.7791
+_cell_length_c                   7.7791
+_cell_volume                     470.75
+_cod_database_code               6000137
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+? ? ? ?

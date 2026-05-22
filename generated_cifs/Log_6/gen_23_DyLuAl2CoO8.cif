@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_DyLuAl2CoO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.34183600
+_cell_length_b   3.33871700
+_cell_length_c   15.66822900
+_cell_angle_alpha   83.77929800
+_cell_angle_beta   83.80054700
+_cell_angle_gamma   60.12055700
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyLuAl2CoO8
+_chemical_formula_sum   'Dy1 Lu1 Al2 Co1 O8'
+_cell_volume   150.39129017
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.82577000  0.71582800  0.13587500  1
+  Al  Al1  1  0.55305000  0.44465200  0.94823100  1
+  O  O2  1  0.68086500  0.57241000  0.56161400  1
+  Dy  Dy3  1  0.28404400  0.17473900  0.75464400  1
+  Al  Al4  1  0.09365300  0.98431800  0.33019500  1
+  O  O5  1  0.42599500  0.31647200  0.33472800  1
+  Co  Co6  1  0.01680000  0.90832200  0.55655300  1
+  O  O7  1  0.13485100  0.02505100  0.20765000  1
+  O  O8  1  0.05268300  0.94378200  0.44755900  1
+  O  O9  1  0.51356300  0.40444700  0.06835700  1
+  O  O10  1  0.97532600  0.86566700  0.68363800  1
+  O  O11  1  0.59220900  0.48378700  0.82982800  1
+  O  O12  1  0.88626300  0.77662600  0.95086400  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_MgCoH10N2O5F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.03294700
+_cell_length_b   4.03207100
+_cell_length_c   6.82455700
+_cell_angle_alpha   90.16575100
+_cell_angle_beta   90.00256400
+_cell_angle_gamma   90.27594200
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgCoH10N2O5F
+_chemical_formula_sum   'Mg1 Co1 H10 N2 O5 F1'
+_cell_volume   110.97324774
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.72581700  0.72005700  0.81751300  1
+  H  H1  1  0.43573600  0.44573200  0.56401500  1
+  H  H2  1  0.01750700  0.00548700  0.08323200  1
+  H  H3  1  0.01610200  0.43912200  0.08276800  1
+  Co  Co4  1  0.72491600  0.72402300  0.31497800  1
+  H  H5  1  0.43761900  0.00526900  0.08163100  1
+  H  H6  1  0.22605600  0.22324400  0.40458200  1
+  H  H7  1  0.22648900  0.22043500  0.90782500  1
+  H  H8  1  0.43785900  0.43895800  0.08333100  1
+  O  O9  1  0.72686600  0.22301600  0.31557900  1
+  N  N10  1  0.22477400  0.22283900  0.55221000  1
+  H  H11  1  0.01562600  0.00392500  0.56491400  1
+  N  N12  1  0.22798200  0.21955700  0.05872100  1
+  O  O13  1  0.22713600  0.72279200  0.31378600  1
+  O  O14  1  0.72634000  0.72174100  0.54736200  1
+  O  O15  1  0.22691900  0.72107400  0.81643400  1
+  F  F16  1  0.72928000  0.22613800  0.81460000  1
+  H  H17  1  0.01679300  0.44640900  0.56010800  1
+  O  O18  1  0.72611700  0.72302100  0.08435800  1
+  H  H19  1  0.43785000  0.99924200  0.56692300  1

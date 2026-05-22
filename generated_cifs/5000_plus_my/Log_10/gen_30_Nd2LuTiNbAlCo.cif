@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_Nd2LuTiNbAlCo(HO3)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.40947200
+_cell_length_b   3.39395600
+_cell_length_c   12.49909400
+_cell_angle_alpha   97.44308500
+_cell_angle_beta   97.74887200
+_cell_angle_gamma   90.00063100
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nd2LuTiNbAlCo(HO3)3
+_chemical_formula_sum   'Nd2 Lu1 Ti1 Nb1 Al1 Co1 H3 O9'
+_cell_volume   142.08372643
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  H  H0  1  0.45186200  0.76712700  0.07097000  1
+  H  H1  1  0.98877700  0.80693600  0.12913900  1
+  O  O2  1  0.82445500  0.14583600  0.81601000  1
+  Nb  Nb3  1  0.45740900  0.28042500  0.12868300  1
+  H  H4  1  0.94972200  0.27457700  0.07217700  1
+  O  O5  1  0.54484500  0.86488200  0.23074200  1
+  O  O6  1  0.39592700  0.21473100  0.96709000  1
+  Co  Co7  1  0.04770400  0.86835300  0.23974700  1
+  Al  Al8  1  0.18349400  0.00737700  0.52418300  1
+  O  O9  1  0.25892000  0.08091600  0.67863300  1
+  Nd  Nd10  1  0.75270500  0.57842200  0.66758500  1
+  Nd  Nd11  1  0.90298400  0.72120200  0.97753300  1
+  Ti  Ti12  1  0.32691400  0.15160100  0.82480100  1
+  O  O13  1  0.11643800  0.93882300  0.37787000  1
+  O  O14  1  0.32480600  0.64651700  0.81786800  1
+  Lu  Lu15  1  0.61912400  0.43980200  0.37815200  1
+  O  O16  1  0.19107800  0.51184400  0.52830300  1
+  O  O17  1  0.04264200  0.36738700  0.23109200  1
+  O  O18  1  0.68981100  0.01174500  0.53112400  1

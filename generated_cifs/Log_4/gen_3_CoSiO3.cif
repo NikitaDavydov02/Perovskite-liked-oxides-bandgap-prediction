@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CoSiO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.49049600
+_cell_length_b   5.62946200
+_cell_length_c   5.51601000
+_cell_angle_alpha   89.65294000
+_cell_angle_beta   59.80517200
+_cell_angle_gamma   89.68581400
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CoSiO3
+_chemical_formula_sum   'Co2 Si2 O6'
+_cell_volume   147.35622525
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.38839100  0.39099500  0.54372900  1
+  O  O1  1  0.24588500  0.56320500  0.32780900  1
+  Co  Co2  1  0.88776400  0.39136900  0.54325500  1
+  Si  Si3  1  0.38847200  0.72937900  0.04206300  1
+  O  O4  1  0.13874100  0.89214800  0.04418500  1
+  O  O5  1  0.63882700  0.89019100  0.04284100  1
+  O  O6  1  0.53238500  0.56826400  0.75279000  1
+  Si  Si7  1  0.88803700  0.05328600  0.04512800  1
+  O  O8  1  0.74460100  0.21550700  0.33243600  1
+  O  O9  1  0.03210600  0.21940600  0.75749200  1

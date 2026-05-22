@@ -1,0 +1,221 @@
+,material_id,formation_energy_per_atom,dft_band_gap,pretty_formula,e_above_hull,elements,cif,spacegroup_number,Si_100_mismatch,azure_bulk_modulus,azure_band_gap,dft_bulk_modulus,dft_poisson_ratio,dft_mag_density,larsen_score_2d,Log_rate
+0,mp-6000,-3.064748331,1.97,La2Ti3(AgO5)2,0.05858444,"['Ag', 'La', 'O', 'Ti']","# generated using pymatgen
+data_La2Ti3(AgO5)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.88329339
+_cell_length_b   14.88329339
+_cell_length_c   14.88329339
+_cell_angle_alpha   165.08297817
+_cell_angle_beta   165.08297817
+_cell_angle_gamma   21.15630834
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2Ti3(AgO5)2
+_chemical_formula_sum   'La2 Ti3 Ag2 O10'
+_cell_volume   218.43262216
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.42574900  0.42574900  0.00000000  1.0
+  La  La1  1  0.57425100  0.57425100  0.00000000  1.0
+  Ti  Ti2  1  0.85410600  0.85410600  0.00000000  1.0
+  Ti  Ti3  1  0.14589400  0.14589400  0.00000000  1.0
+  Ti  Ti4  1  0.00000000  0.00000000  0.00000000  1.0
+  Ag  Ag5  1  0.28536900  0.28536900  0.00000000  1.0
+  Ag  Ag6  1  0.71463100  0.71463100  0.00000000  1.0
+  O  O7  1  0.79336100  0.79336100  0.00000000  1.0
+  O  O8  1  0.20663900  0.20663900  0.00000000  1.0
+  O  O9  1  0.36927600  0.86927600  0.50000000  1.0
+  O  O10  1  0.86927600  0.36927600  0.50000000  1.0
+  O  O11  1  0.63072400  0.13072400  0.50000000  1.0
+  O  O12  1  0.13072400  0.63072400  0.50000000  1.0
+  O  O13  1  0.93342700  0.93342700  0.00000000  1.0
+  O  O14  1  0.00000000  0.50000000  0.50000000  1.0
+  O  O15  1  0.50000000  0.00000000  0.50000000  1.0
+  O  O16  1  0.06657300  0.06657300  0.00000000  1.0
+",139,0.002260541,145.3122395,1.927227815,,,8.17E-06,0.086934293,5.438079309
+1,mp-6119,-3.064748331,1.97,La2Ti3(AgO5)3,1.05858444,"['Na','Nd','Ti','O']","# generated using pymatgen
+data_Na2Nd2Ti3O10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.64115209
+_cell_length_b   14.64115209
+_cell_length_c   14.64115209
+_cell_angle_alpha   164.88596718
+_cell_angle_beta   164.88596718
+_cell_angle_gamma   21.43737557
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Nd2Ti3O10
+_chemical_formula_sum   'Na2 Nd2 Ti3 O10'
+_cell_volume   213.34232004
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.71201900  0.71201900  0.00000000  1.0
+  Na  Na1  1  0.28798100  0.28798100  0.00000000  1.0
+  Nd  Nd2  1  0.57526100  0.57526100  0.00000000  1.0
+  Nd  Nd3  1  0.42473900  0.42473900  0.00000000  1.0
+  Ti  Ti4  1  0.85326400  0.85326400  0.00000000  1.0
+  Ti  Ti5  1  0.14673600  0.14673600  0.00000000  1.0
+  Ti  Ti6  1  0.00000000  0.00000000  0.00000000  1.0
+  O  O7  1  0.36821800  0.86821800  0.50000000  1.0
+  O  O8  1  0.86821800  0.36821800  0.50000000  1.0
+  O  O9  1  0.63178200  0.13178200  0.50000000  1.0
+  O  O10  1  0.13178200  0.63178200  0.50000000  1.0
+  O  O11  1  0.79202800  0.79202800  0.00000000  1.0
+  O  O12  1  0.20797200  0.20797200  0.00000000  1.0
+  O  O13  1  0.50000000  0.00000000  0.50000000  1.0
+  O  O14  1  0.06734900  0.06734900  0.00000000  1.0
+  O  O15  1  0.93265100  0.93265100  0.00000000  1.0
+  O  O16  1  0.00000000  0.50000000  0.50000000  1.0
+",139,0.002260541,145.3122395,1.927227815,,,8.17E-07,1.086934293,5.192956851
+2,mp-6144,-3.064748331,1.97,La2Ti3(AgO5)4,2.05858444,"['Na','La','Ti','O']","# generated using pymatgen
+data_Na2La2Ti3O10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.69641334
+_cell_length_b   14.69641334
+_cell_length_c   14.69641334
+_cell_angle_alpha   164.86303529
+_cell_angle_beta   164.86303529
+_cell_angle_gamma   21.47009583
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2La2Ti3O10
+_chemical_formula_sum   'Na2 La2 Ti3 O10'
+_cell_volume   216.40687731
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.71177800  0.71177800  0.00000000  1.0
+  Na  Na1  1  0.28822200  0.28822200  0.00000000  1.0
+  La  La2  1  0.57527700  0.57527700  0.00000000  1.0
+  La  La3  1  0.42472300  0.42472300  0.00000000  1.0
+  Ti  Ti4  1  0.85219600  0.85219600  0.00000000  1.0
+  Ti  Ti5  1  0.14780400  0.14780400  0.00000000  1.0
+  Ti  Ti6  1  0.00000000  0.00000000  0.00000000  1.0
+  O  O7  1  0.36674700  0.86674700  0.50000000  1.0
+  O  O8  1  0.86674700  0.36674700  0.50000000  1.0
+  O  O9  1  0.63325300  0.13325300  0.50000000  1.0
+  O  O10  1  0.13325300  0.63325300  0.50000000  1.0
+  O  O11  1  0.79138100  0.79138100  0.00000000  1.0
+  O  O12  1  0.20861900  0.20861900  0.00000000  1.0
+  O  O13  1  0.50000000  0.00000000  0.50000000  1.0
+  O  O14  1  0.06734300  0.06734300  0.00000000  1.0
+  O  O15  1  0.93265700  0.93265700  0.00000000  1.0
+  O  O16  1  0.00000000  0.50000000  0.50000000  1.0
+",139,0.002260541,145.3122395,1.927227815,,,8.17E-08,2.086934293,4.605170186
+3,mp-6548,-3.064748331,1.97,La2Ti3(AgO5)5,3.05858444,"['K','La','Ti','O']","# generated using pymatgen
+data_K2La2Ti3O10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   15.28115725
+_cell_length_b   15.28115725
+_cell_length_c   15.28115725
+_cell_angle_alpha   165.29487936
+_cell_angle_beta   165.29487936
+_cell_angle_gamma   20.85407093
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2La2Ti3O10
+_chemical_formula_sum   'K2 La2 Ti3 O10'
+_cell_volume   229.90248606
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.29225600  0.29225600  0.00000000  1.0
+  K  K1  1  0.70774400  0.70774400  0.00000000  1.0
+  La  La2  1  0.42844400  0.42844400  0.00000000  1.0
+  La  La3  1  0.57155600  0.57155600  0.00000000  1.0
+  Ti  Ti4  1  0.13990900  0.13990900  0.00000000  1.0
+  Ti  Ti5  1  0.86009100  0.86009100  0.00000000  1.0
+  Ti  Ti6  1  0.00000000  0.00000000  0.00000000  1.0
+  O  O7  1  0.80140600  0.80140600  0.00000000  1.0
+  O  O8  1  0.19859400  0.19859400  0.00000000  1.0
+  O  O9  1  0.37349500  0.87349500  0.50000000  1.0
+  O  O10  1  0.87349500  0.37349500  0.50000000  1.0
+  O  O11  1  0.62650500  0.12650500  0.50000000  1.0
+  O  O12  1  0.12650500  0.62650500  0.50000000  1.0
+  O  O13  1  0.93575200  0.93575200  0.00000000  1.0
+  O  O14  1  0.00000000  0.50000000  0.50000000  1.0
+  O  O15  1  0.50000000  0.00000000  0.50000000  1.0
+  O  O16  1  0.06424800  0.06424800  0.00000000  1.0
+",139,0.002260541,145.3122395,1.927227815,,,8.17E-09,3.086934293,8.160518247
+4,mp-9406,-3.064748331,1.97,La2Ti3(AgO5)6,4.05858444,"['Li','La','Ti','O']","# generated using pymatgen
+data_Li2La2Ti3O10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.65683590
+_cell_length_b   13.65683590
+_cell_length_c   13.65683590
+_cell_angle_alpha   163.67981075
+_cell_angle_beta   163.67981075
+_cell_angle_gamma   23.15963146
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2La2Ti3O10
+_chemical_formula_sum   'Li2 La2 Ti3 O10'
+_cell_volume   201.08803464
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.25000000  0.75000000  0.50000000  1.0
+  Li  Li1  1  0.75000000  0.25000000  0.50000000  1.0
+  La  La2  1  0.41883700  0.41883700  0.00000000  1.0
+  La  La3  1  0.58116300  0.58116300  0.00000000  1.0
+  Ti  Ti4  1  0.15771700  0.15771700  0.00000000  1.0
+  Ti  Ti5  1  0.84228300  0.84228300  0.00000000  1.0
+  Ti  Ti6  1  0.00000000  0.00000000  0.00000000  1.0
+  O  O7  1  0.35747600  0.85747600  0.50000000  1.0
+  O  O8  1  0.77545400  0.77545400  0.00000000  1.0
+  O  O9  1  0.22454600  0.22454600  0.00000000  1.0
+  O  O10  1  0.50000000  0.00000000  0.50000000  1.0
+  O  O11  1  0.85747600  0.35747600  0.50000000  1.0
+  O  O12  1  0.00000000  0.50000000  0.50000000  1.0
+  O  O13  1  0.92736700  0.92736700  0.00000000  1.0
+  O  O14  1  0.07263300  0.07263300  0.00000000  1.0
+  O  O15  1  0.14252400  0.64252400  0.50000000  1.0
+  O  O16  1  0.64252400  0.14252400  0.50000000  1.0
+",139,0.002260541,145.3122395,1.927227815,,,8.17E-10,4.086934293,2.995732274

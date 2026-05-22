@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_SrCa6Nb2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.26039100
+_cell_length_b   3.26561700
+_cell_length_c   24.66037000
+_cell_angle_alpha   90.02026100
+_cell_angle_beta   90.03114800
+_cell_angle_gamma   90.14193400
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCa6Nb2O7
+_chemical_formula_sum   'Sr1 Ca6 Nb2 O7'
+_cell_volume   262.56274139
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.62121800  0.81580400  0.12602400  1
+  Ca  Ca1  1  0.11855400  0.31383500  0.38647700  1
+  Nb  Nb2  1  0.62389800  0.81548400  0.92675100  1
+  O  O3  1  0.62523000  0.81824100  0.01553500  1
+  Ca  Ca4  1  0.12099400  0.31463400  0.80083800  1
+  Sr  Sr5  1  0.62100500  0.81891400  0.27906700  1
+  O  O6  1  0.12314800  0.31791200  0.93265700  1
+  Ca  Ca7  1  0.12065500  0.31529600  0.58444300  1
+  O  O8  1  0.12183900  0.31795100  0.12315200  1
+  O  O9  1  0.62113400  0.81436000  0.85116500  1
+  Ca  Ca10  1  0.12560700  0.31937800  0.02801400  1
+  Ca  Ca11  1  0.61960800  0.81637300  0.49040000  1
+  O  O12  1  0.11898700  0.31608000  0.48748400  1
+  O  O13  1  0.62091200  0.81473700  0.75226900  1
+  O  O14  1  0.61907600  0.81353200  0.58792300  1
+  Nb  Nb15  1  0.61973500  0.81433100  0.67849500  1

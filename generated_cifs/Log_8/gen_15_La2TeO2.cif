@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_La2TeO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.11945900
+_cell_length_b   4.11706600
+_cell_length_c   7.17801500
+_cell_angle_alpha   106.52229600
+_cell_angle_beta   106.67183200
+_cell_angle_gamma   89.96150800
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2TeO2
+_chemical_formula_sum   'La2 Te1 O2'
+_cell_volume   111.37202077
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.90115100  0.12237100  0.56721700  1
+  La  La1  1  0.21960600  0.44076600  0.20296400  1
+  Te  Te2  1  0.56003700  0.78154600  0.88499600  1
+  O  O3  1  0.81013600  0.53249000  0.38533500  1
+  O  O4  1  0.31041500  0.03107500  0.38432600  1

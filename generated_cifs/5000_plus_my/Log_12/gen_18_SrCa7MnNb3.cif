@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_SrCa7MnNb3(HO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.19258700
+_cell_length_b   3.21448900
+_cell_length_c   26.94269400
+_cell_angle_alpha   89.98127400
+_cell_angle_beta   89.97969600
+_cell_angle_gamma   89.85833100
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCa7MnNb3(HO3)2
+_chemical_formula_sum   'Sr1 Ca7 Mn1 Nb3 H2 O6'
+_cell_volume   276.49948427
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.06863100  0.11675000  0.98931200  1
+  Ca  Ca1  1  0.56827900  0.61720200  0.43453400  1
+  Ca  Ca2  1  0.06911100  0.11681500  0.69788800  1
+  Ca  Ca3  1  0.07148200  0.11891300  0.16257100  1
+  H  H4  1  0.06806200  0.11632400  0.60572000  1
+  Nb  Nb5  1  0.56667900  0.61685900  0.90287600  1
+  Mn  Mn6  1  0.06808800  0.11715900  0.87127000  1
+  Ca  Ca7  1  0.56892800  0.61660600  0.25142600  1
+  H  H8  1  0.07105600  0.11559500  0.41391500  1
+  Ca  Ca9  1  0.56952800  0.61543000  0.79296300  1
+  O  O10  1  0.07259100  0.11617800  0.07520300  1
+  O  O11  1  0.56778200  0.61834200  0.98414500  1
+  O  O12  1  0.57183300  0.61826000  0.16652500  1
+  Sr  Sr13  1  0.56938300  0.61730500  0.60460400  1
+  Nb  Nb14  1  0.07096400  0.11529800  0.34098500  1
+  O  O15  1  0.57032300  0.61563000  0.34111000  1
+  Nb  Nb16  1  0.06850200  0.11372100  0.51966900  1
+  O  O17  1  0.07101400  0.11536300  0.26025700  1
+  Ca  Ca18  1  0.57193800  0.61508100  0.07914600  1
+  O  O19  1  0.56896200  0.61678500  0.69941000  1

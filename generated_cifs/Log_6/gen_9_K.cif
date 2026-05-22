@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_K(CoO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.56360100
+_cell_length_b   3.56681000
+_cell_length_c   6.46803900
+_cell_angle_alpha   90.01282300
+_cell_angle_beta   89.97283900
+_cell_angle_gamma   119.84184400
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K(CoO)2
+_chemical_formula_sum   'K1 Co2 O2'
+_cell_volume   71.31192914
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.48226400  0.88139000  0.51774000  1
+  K  K1  1  0.81576600  0.54775000  0.21785700  1
+  Co  Co2  1  0.14841400  0.21338600  0.59354200  1
+  O  O3  1  0.14882200  0.21376400  0.91610400  1
+  Co  Co4  1  0.48276100  0.88142500  0.83567100  1

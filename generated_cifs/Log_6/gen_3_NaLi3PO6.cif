@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_NaLi3PO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.19758100
+_cell_length_b   5.24496300
+_cell_length_c   5.25244800
+_cell_angle_alpha   69.82554300
+_cell_angle_beta   67.54892400
+_cell_angle_gamma   67.52039400
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLi3PO6
+_chemical_formula_sum   'Na1 Li3 P1 O6'
+_cell_volume   118.91795163
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.20741000  0.94383500  0.68500400  1
+  O  O1  1  0.53244800  0.71045200  0.45299600  1
+  Li  Li2  1  0.68211900  0.32312100  0.65878800  1
+  P  P3  1  0.06283500  0.30066500  0.04142500  1
+  O  O4  1  0.05036900  0.20398500  0.35865600  1
+  Li  Li5  1  0.68435500  0.91666400  0.06781600  1
+  Na  Na6  1  0.30464700  0.54036700  0.28004400  1
+  O  O7  1  0.81229200  0.24894100  0.98801200  1
+  O  O8  1  0.35846600  0.12580000  0.86661300  1
+  O  O9  1  0.71573800  0.75666800  0.50124100  1
+  O  O10  1  0.05084300  0.61741400  0.94433200  1

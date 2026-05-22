@@ -1,0 +1,172 @@
+##CIF_1.1
+
+data_sm_global
+#Used dictionaries
+loop_
+_audit_conform_dict_name
+_audit_conform_dict_version
+_audit_conform_dict_location
+cif_core.dic 	2.4.2 	.
+cif_pd.dic 		1.0.1 	.
+cif_sm.dic 		0.1 	'redaktion.landolt-boernstein(at)springer.com'
+
+#About this content and reference
+_sm_credits_copyright
+;PAULING FILE Multinaries Edition - 2012. SpringerMaterials Release 2014.
+http://www.paulingfile.com
+Unique LPF ID Number SD0376709
+Project Coordinator: Shuichi Iwata
+Section-Editors: Karin Cenzual (Crystal Structures), Hiroaki Okamoto (Phase 
+Diagrams), Fritz Hulliger (Physical Properties)
+(c) Springer & Material Phases Data System (MPDS), Switzerland & National 
+Institute for Materials Science (NIMS), Japan 2014.
+(Data generated pre-2002: (c) Springer & MPDS & NIMS; 
+post-2001: (c) Springer & MPDS)
+All Rights Reserved. Version 2014.06.
+;
+
+_audit_creation_method
+;This data have been compiled from the crystallographic datasheet for 
+"Rb4Nb6O17 Crystal Structure" 
+taken from SpringerMaterials (sm_isp_sd_0376709).
+;
+
+_publ_section_references
+;Belyaev I.N., Nalbandyan V.B., Trubnikov I.L., Medvedev B.S.: <i>Layer Thallium Niobate</i>. (Russian) Journal of Inorganic Chemistry (translated from Zhurnal Neorganicheskoi Khimii) <b>29</b> (1984) 144-145.
+;
+
+#Phase classification
+_sm_phase_labels				'Rb4Nb6O17'
+_chemical_name_mineral			''
+_sm_chemical_compound_class		'oxide'
+_sm_phase_prototype				'Rb4 Nb6 O17 '
+_sm_pearson_symbol				'oP108'
+_symmetry_Int_Tables_number		62
+_sm_sample_details
+;powder (determination of cell parameters)
+;
+_sm_measurement_details
+;film (determination of cell parameters), 
+X-rays (determination of cell parameters)
+;
+_sm_interpretation_details
+;cell parameters determined and structure type assigned
+;
+
+data_sm_isp_SD0376709-standardized_unitcell
+#Cell Parameters
+_cell_length_a					34.1
+_cell_length_b					7.85
+_cell_length_c					6.52
+_cell_angle_alpha				90
+_cell_angle_beta				90
+_cell_angle_gamma				90
+_sm_length_ratio_ab				4.344
+_sm_length_ratio_bc				1.204
+_sm_length_ratio_ca				0.191
+_cell_volume 					1745.3
+_symmetry_space_group_name_H-M	'Pnma'
+_symmetry_Int_Tables_number		62
+_cell_formula_units_Z			4
+_sm_cell_transformation
+;new axes b,-a,c
+;
+
+#Atom Coordinates
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_sm_site_symmetry
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_sm_coordination_number
+_sm_atomic_environment_type
+O1 'O' .8d .1 0.071 0.013 0.185 1 ? '?'
+O2 'O' .8d .1 0.11 0.015 0.583 1 ? '?'
+Nb1 'Nb' .8d .1 0.1269 0.5078 0.257 1 ? '?'
+O3 'O' .8d .1 0.179 0.501 0.403 1 ? '?'
+O4 'O' .8d .1 0.278 0.522 0.28 1 ? '?'
+Nb2 'Nb' .8d .1 0.327 0.0042 0.2001 1 ? '?'
+O5 'O' .8d .1 0.351 0.002 0.499 1 ? '?'
+O6 'O' .4c ..m. 0.003 0.25 0.122 1 ? '?'
+O7 'O' .4c ..m. 0.048 0.25 0.48 1 ? '?'
+Nb3 'Nb' .4c ..m. 0.0528 0.25 0.1758 1 ? '?'
+Nb4 'Nb' .4c ..m. 0.0966 0.25 0.6314 1 ? '?'
+O8 'O' .4c ..m. 0.121 0.25 0.299 1 ? '?'
+O9 'O' .4c ..m. 0.158 0.25 0.707 1 ? '?'
+Rb1 'Rb' .4c ..m. 0.2198 0.25 0.1467 1 ? '?'
+Rb2 'Rb' .4c ..m. 0.2818 0.25 0.6372 1 ? '?'
+O10 'O' .4c ..m. 0.333 0.25 0.221 1 ? '?'
+O11 'O' .4c ..m. 0.38 0.25 0.776 1 ? '?'
+Rb3 'Rb' .4c ..m. 0.4199 0.25 0.3343 1 ? '?'
+Rb4 'Rb' .4c ..m. 0.4806 0.25 0.8015 1 ? '?'
+O12 'O' .4c ..m. 0.572 0.25 0.614 1 ? '?'
+
+_sm_atom_site_transformation
+;new axes b,-a,c
+Atom coordinates assigned by editor.
+;
+
+data_sm_isp_SD0376709-published_cell
+#Cell Parameters
+_cell_length_a					7.85
+_cell_length_b					34.1
+_cell_length_c					6.52
+_cell_angle_alpha				90
+_cell_angle_beta				90
+_cell_angle_gamma				90
+_sm_length_ratio_ab				0.230
+_sm_length_ratio_bc				5.230
+_sm_length_ratio_ca				0.831
+_cell_volume 					1745.31
+_symmetry_space_group_name_H-M	'Pmnb'
+_symmetry_Int_Tables_number		62
+_cell_formula_units_Z			4
+
+#Atom Coordinates
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_sm_site_symmetry
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_sm_coordination_number
+_sm_atomic_environment_type
+? ? ? ? ? ? ? ? ? ?
+
+data_sm_isp_SD0376709-niggli_reduced_cell
+#Cell Parameters
+_cell_length_a					6.52
+_cell_length_b					7.85
+_cell_length_c					34.1
+_cell_angle_alpha				90
+_cell_angle_beta				90
+_cell_angle_gamma				90
+_sm_length_ratio_ab				0.831
+_sm_length_ratio_bc				0.230
+_sm_length_ratio_ca				5.230
+_cell_volume 					1745.31
+_symmetry_space_group_name_H-M	''
+_symmetry_Int_Tables_number		?
+_cell_formula_units_Z			4
+
+#Atom Coordinates
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_sm_site_symmetry
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_sm_coordination_number
+_sm_atomic_environment_type
+? ? ? ? ? ? ? ? ? ?
+

@@ -1,0 +1,190 @@
+##CIF_1.1
+
+data_sm_global
+#Used dictionaries
+loop_
+_audit_conform_dict_name
+_audit_conform_dict_version
+_audit_conform_dict_location
+cif_core.dic 	2.4.2 	.
+cif_pd.dic 		1.0.1 	.
+cif_sm.dic 		0.1 	'redaktion.landolt-boernstein(at)springer.com'
+
+#About this content and reference
+_sm_credits_copyright
+;PAULING FILE Multinaries Edition - 2012. SpringerMaterials Release 2014.
+http://www.paulingfile.com
+Unique LPF ID Number SD1200159
+Project Coordinator: Shuichi Iwata
+Section-Editors: Karin Cenzual (Crystal Structures), Hiroaki Okamoto (Phase 
+Diagrams), Fritz Hulliger (Physical Properties)
+(c) Springer & Material Phases Data System (MPDS), Switzerland & National 
+Institute for Materials Science (NIMS), Japan 2014.
+(Data generated pre-2002: (c) Springer & MPDS & NIMS; 
+post-2001: (c) Springer & MPDS)
+All Rights Reserved. Version 2014.06.
+;
+
+_audit_creation_method
+;This data have been compiled from the crystallographic datasheet for 
+"H2SrTa2O7 (SrTa2O5[OH]2 tet, <i>T</i> = 573 K) Crystal Structure" 
+taken from SpringerMaterials (sm_isp_sd_1200159).
+;
+
+_publ_section_references
+;Bhuvanesh N.S.P., Crosnier Lopez M.P., Duroy H., Fourquet J.L.: <i>Synthesis, characterization and dehydration study of H<sub>2</sub>A<sub>0.5n</sub>B<sub>n</sub>O<sub>3n+1</sub>&#x00b7;xH<sub>2</sub>O (n= 2 and 3, A= Ca, Sr and B= Nb, Ta) compounds obtained by ion-exchange from the layered Li<sub>2</sub>A<sub>0.5n</sub>B<sub>n</sub>O<sub>3n+1</sub> perovskite materials</i>. Journal of Materials Chemistry <b>10</b> (2000) 1685-1692.
+;
+
+#Phase classification
+_sm_phase_labels				'SrTa2O5[OH]2 tet'
+_chemical_name_mineral			''
+_sm_chemical_compound_class		'hydroxide, oxide'
+_sm_phase_prototype				'SrTa2 O5 [OH]2 '
+_sm_pearson_symbol				'tI20'
+_symmetry_Int_Tables_number		139
+_sm_sample_details
+;sample prepared from strontium oxide, tantalum carbonate, 
+differential thermal analysis DTA, flame spectroscopy, thermogravimetry, 
+powder (determination of cell and structural parameters)
+;
+_sm_measurement_details
+;automatic diffractometer (determination of cell parameters), 
+automatic diffractometer; Siemens D5000 (determination of structural parameters), 
+X-rays, Cu K&#x03b1; (determination of cell and structural parameters), 
+<i>T</i> = 573 K (determination of cell and structural parameters)
+;
+_sm_interpretation_details
+;positions of non-H atoms determined, 
+Rietveld refinement, 
+<i>R</i><sub>P</sub> = 0.188; <i>wR</i><sub>P</sub> = 0.180; <i>R</i><sub>B</sub> = 0.096
+;
+
+data_sm_isp_SD1200159-standardized_unitcell
+#Cell Parameters
+_cell_length_a					3.93
+_cell_length_b					3.93
+_cell_length_c					18.515
+_cell_angle_alpha				90
+_cell_angle_beta				90
+_cell_angle_gamma				90
+_sm_length_ratio_ab				1.000
+_sm_length_ratio_bc				0.212
+_sm_length_ratio_ca				4.711
+_cell_volume 					286
+_symmetry_space_group_name_H-M	'I4/mmm'
+_symmetry_Int_Tables_number		139
+_cell_formula_units_Z			2
+_sm_cell_transformation
+;origin shift 0 0 1/2
+;
+
+#Atom Coordinates
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_sm_site_symmetry
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_sm_coordination_number
+_sm_atomic_environment_type
+O1 'O' .8g .2mm. 0 0.5 0.098 1 2 'non-collinear, Ta<sub>2</sub>'
+Ta 'Ta' .4e .4mm 0 0 0.1114 1 6 'octahedron, (OH)O<sub>5</sub>'
+O2 'OH' .4e .4mm 0 0 0.212 1 1 'single atom, Ta'
+Sr 'Sr' .2b .4/mmm 0 0 0.5 1 12 'cuboctahedron, O<sub>12</sub>'
+O3 'O' .2a .4/mmm 0 0 0 1 2 'collinear, Ta<sub>2</sub>'
+
+_sm_atom_site_transformation
+;origin shift 0 0 1/2
+;
+
+#Isotropic Displacement Parameters
+loop_
+_atom_site_label_1
+_atom_site_B_iso_or_equiv
+_sm_atom_site_isotropic_displacement_parameter_type
+_atom_site_B_equiv_geom_mean
+Ta 0.005(1) 'Biso' ?
+Sr 0.012(1) 'Biso' ?
+O1 0.026(3) 'Biso' ?
+O2 0.026(3) 'Biso' ?
+O3 0.026(3) 'Biso' ?
+
+data_sm_isp_SD1200159-published_cell
+#Cell Parameters
+_cell_length_a					3.93(1)
+_cell_length_b					3.93(1)
+_cell_length_c					18.515(2)
+_cell_angle_alpha				90
+_cell_angle_beta				90
+_cell_angle_gamma				90
+_sm_length_ratio_ab				1.000
+_sm_length_ratio_bc				0.212
+_sm_length_ratio_ca				4.711
+_cell_volume 					285.96
+_symmetry_space_group_name_H-M	'I4/mmm'
+_symmetry_Int_Tables_number		139
+_cell_formula_units_Z			2
+
+#Atom Coordinates
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_sm_site_symmetry
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_sm_coordination_number
+_sm_atomic_environment_type
+Ta 'Ta' .4e .4mm 0 0 0.3886(1) 1 ? '?'
+Sr 'Sr' .2a .4/mmm 0 0 0 1 ? '?'
+O1 'O' .8g .2mm. 0 0.5 0.098(1) 1 ? '?'
+O2 'OH' .4e .4mm 0 0 0.288(1) 1 ? '?'
+O3 'O' .2b .4/mmm 0 0 0.5 1 ? '?'
+
+#Isotropic Displacement Parameters
+loop_
+_atom_site_label_1
+_atom_site_B_iso_or_equiv
+_sm_atom_site_isotropic_displacement_parameter_type
+_atom_site_B_equiv_geom_mean
+Ta 0.005(1) 'Biso' ?
+Sr 0.012(1) 'Biso' ?
+O1 0.026(3) 'Biso' ?
+O2 0.026(3) 'Biso' ?
+O3 0.026(3) 'Biso' ?
+
+data_sm_isp_SD1200159-niggli_reduced_cell
+#Cell Parameters
+_cell_length_a					3.93
+_cell_length_b					3.93
+_cell_length_c					9.6656
+_cell_angle_alpha				101.73
+_cell_angle_beta				101.73
+_cell_angle_gamma				90
+_sm_length_ratio_ab				1.000
+_sm_length_ratio_bc				0.407
+_sm_length_ratio_ca				2.459
+_cell_volume 					142.98
+_symmetry_space_group_name_H-M	''
+_symmetry_Int_Tables_number		?
+_cell_formula_units_Z			2
+
+#Atom Coordinates
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_sm_site_symmetry
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_sm_coordination_number
+_sm_atomic_environment_type
+? ? ? ? ? ? ? ? ? ?
+

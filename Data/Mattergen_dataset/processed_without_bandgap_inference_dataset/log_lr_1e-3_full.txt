@@ -1,0 +1,375 @@
+/mnt/tank/scratch/ndavydov/mattergen/mattergen/outputs/singlerun/2026-05-13/23-14-20
+
+(base) ndavydov@aichem:/mnt/tank/scratch/ndavydov/mattergen/mattergen$ mattergen-finetune adapter.pretrained_name=mattergen_base data_module=mp_20 +lightning_module/diffusion_module/model/property_embeddings@adapter.adapter.property_embeddings_adapt.$PROPERTY=$PROPERTY ~trainer.logger data_module.properties=["$PROPERTY"] data_module.batch_size.train=32 data_module.batch_size.val=32 data_module.batch_size.test=32 lightning_module.optimizer_partial.lr=1e-03 trainer.max_epochs=30
+/mnt/tank/scratch/ndavydov/mattergen/.venv/lib/python3.10/site-packages/lightning_fabric/__init__.py:36: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+MODELS_PROJECT_ROOT: /mnt/tank/scratch/ndavydov/mattergen/mattergen/mattergen
+/mnt/tank/scratch/ndavydov/mattergen/.venv/lib/python3.10/site-packages/hydra/_internal/defaults_list.py:251: UserWarning: In 'finetune': Defaults list is missing `_self_`. See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/default_composition_order for more information
+  warnings.warn(msg, UserWarning)
+/mnt/tank/scratch/ndavydov/mattergen/.venv/lib/python3.10/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+/mnt/tank/scratch/ndavydov/mattergen/.venv/lib/python3.10/site-packages/lightning_fabric/plugins/environments/slurm.py:165: PossibleUserWarning: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python3 /mnt/tank/scratch/ndavydov/mattergen/.venv/bin/matt ...
+  rank_zero_warn(
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/mnt/tank/scratch/ndavydov/mattergen/.venv/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:67: UserWarning: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+  warning_cache.warn(
+[2026-05-13 23:14:28,243][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/microsoft/mattergen/resolve/main/checkpoints/mattergen_base/checkpoints/last.ckpt "HTTP/1.1 302 Found"
+[2026-05-13 23:14:28,396][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/microsoft/mattergen/resolve/main/checkpoints/mattergen_base/config.yaml "HTTP/1.1 307 Temporary Redirect"
+[2026-05-13 23:14:28,410][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/mattergen/ea430eab64b80855029c2941b9fda15f245a771a/checkpoints%2Fmattergen_base%2Fconfig.yaml "HTTP/1.1 200 OK"
+{
+    "data_module": {
+        "_target_": "mattergen.common.data.datamodule.CrystDataModule",
+        "_recursive_": true,
+        "properties": [
+            "Log_rate"
+        ],
+        "transforms": [
+            {
+                "_target_": "mattergen.common.data.transform.symmetrize_lattice",
+                "_partial_": true
+            },
+            {
+                "_target_": "mattergen.common.data.transform.set_chemical_system_string",
+                "_partial_": true
+            }
+        ],
+        "dataset_transforms": [
+            {
+                "_target_": "mattergen.common.data.dataset_transform.filter_sparse_properties",
+                "_partial_": true
+            }
+        ],
+        "average_density": 0.05771451654022283,
+        "root_dir": "/mnt/tank/scratch/ndavydov/mattergen/mattergen/mattergen/../datasets/cache/mp_20",
+        "train_dataset": {
+            "_target_": "mattergen.common.data.dataset.CrystalDataset.from_cache_path",
+            "cache_path": "/mnt/tank/scratch/ndavydov/mattergen/mattergen/mattergen/../datasets/cache/mp_20/train",
+            "properties": [
+                "Log_rate"
+            ],
+            "transforms": [
+                {
+                    "_target_": "mattergen.common.data.transform.symmetrize_lattice",
+                    "_partial_": true
+                },
+                {
+                    "_target_": "mattergen.common.data.transform.set_chemical_system_string",
+                    "_partial_": true
+                }
+            ],
+            "dataset_transforms": [
+                {
+                    "_target_": "mattergen.common.data.dataset_transform.filter_sparse_properties",
+                    "_partial_": true
+                }
+            ]
+        },
+        "val_dataset": {
+            "_target_": "mattergen.common.data.dataset.CrystalDataset.from_cache_path",
+            "cache_path": "/mnt/tank/scratch/ndavydov/mattergen/mattergen/mattergen/../datasets/cache/mp_20/val",
+            "properties": [
+                "Log_rate"
+            ],
+            "transforms": [
+                {
+                    "_target_": "mattergen.common.data.transform.symmetrize_lattice",
+                    "_partial_": true
+                },
+                {
+                    "_target_": "mattergen.common.data.transform.set_chemical_system_string",
+                    "_partial_": true
+                }
+            ],
+            "dataset_transforms": [
+                {
+                    "_target_": "mattergen.common.data.dataset_transform.filter_sparse_properties",
+                    "_partial_": true
+                }
+            ]
+        },
+        "test_dataset": {
+            "_target_": "mattergen.common.data.dataset.CrystalDataset.from_cache_path",
+            "cache_path": "/mnt/tank/scratch/ndavydov/mattergen/mattergen/mattergen/../datasets/cache/mp_20/test",
+            "properties": [
+                "Log_rate"
+            ],
+            "transforms": [
+                {
+                    "_target_": "mattergen.common.data.transform.symmetrize_lattice",
+                    "_partial_": true
+                },
+                {
+                    "_target_": "mattergen.common.data.transform.set_chemical_system_string",
+                    "_partial_": true
+                }
+            ],
+            "dataset_transforms": [
+                {
+                    "_target_": "mattergen.common.data.dataset_transform.filter_sparse_properties",
+                    "_partial_": true
+                }
+            ]
+        },
+        "num_workers": {
+            "train": 0,
+            "val": 0,
+            "test": 0
+        },
+        "batch_size": {
+            "train": 32,
+            "val": 32,
+            "test": 32
+        },
+        "max_epochs": 900
+    },
+    "trainer": {
+        "_target_": "pytorch_lightning.Trainer",
+        "accelerator": "gpu",
+        "devices": 1,
+        "num_nodes": 1,
+        "precision": 32,
+        "max_epochs": 30,
+        "accumulate_grad_batches": 1,
+        "gradient_clip_val": 0.5,
+        "gradient_clip_algorithm": "value",
+        "check_val_every_n_epoch": 5,
+        "strategy": {
+            "_target_": "pytorch_lightning.strategies.ddp.DDPStrategy",
+            "find_unused_parameters": true
+        },
+        "callbacks": [
+            {
+                "_target_": "pytorch_lightning.callbacks.LearningRateMonitor",
+                "logging_interval": "step",
+                "log_momentum": false
+            },
+            {
+                "_target_": "pytorch_lightning.callbacks.ModelCheckpoint",
+                "monitor": "loss_val",
+                "mode": "min",
+                "save_top_k": 1,
+                "save_last": true,
+                "verbose": false,
+                "every_n_epochs": 1,
+                "filename": "{epoch}-{loss_val:.2f}"
+            },
+            {
+                "_target_": "pytorch_lightning.callbacks.TQDMProgressBar",
+                "refresh_rate": 50
+            },
+            {
+                "_target_": "mattergen.common.data.callback.SetPropertyScalers"
+            }
+        ]
+    },
+    "lightning_module": {
+        "_target_": "mattergen.diffusion.lightning_module.DiffusionLightningModule",
+        "optimizer_partial": {
+            "lr": 0.001,
+            "_target_": "torch.optim.Adam",
+            "_partial_": true
+        },
+        "scheduler_partials": [
+            {
+                "scheduler": {
+                    "_target_": "torch.optim.lr_scheduler.ReduceLROnPlateau",
+                    "factor": 0.6,
+                    "patience": 100,
+                    "min_lr": 1e-06,
+                    "verbose": true,
+                    "_partial_": true
+                },
+                "interval": "epoch",
+                "frequency": 1,
+                "monitor": "loss_train",
+                "strict": true
+            }
+        ],
+        "diffusion_module": {
+            "_target_": "mattergen.diffusion.diffusion_module.DiffusionModule",
+            "corruption": {
+                "_target_": "mattergen.diffusion.corruption.multi_corruption.MultiCorruption",
+                "discrete_corruptions": {
+                    "atomic_numbers": {
+                        "_target_": "mattergen.diffusion.corruption.d3pm_corruption.D3PMCorruption",
+                        "d3pm": {
+                            "_target_": "mattergen.diffusion.d3pm.d3pm.MaskDiffusion",
+                            "dim": 101,
+                            "schedule": {
+                                "_target_": "mattergen.diffusion.d3pm.d3pm.create_discrete_diffusion_schedule",
+                                "kind": "standard",
+                                "num_steps": 1000
+                            }
+                        },
+                        "offset": 1
+                    }
+                },
+                "sdes": {
+                    "cell": {
+                        "_target_": "mattergen.common.diffusion.corruption.LatticeVPSDE.from_vpsde_config",
+                        "vpsde_config": {
+                            "beta_max": 20,
+                            "beta_min": 0.1,
+                            "limit_density": 0.05771451654022283,
+                            "limit_var_scaling_constant": 0.25
+                        }
+                    },
+                    "pos": {
+                        "_target_": "mattergen.common.diffusion.corruption.NumAtomsVarianceAdjustedWrappedVESDE",
+                        "limit_info_key": "num_atoms",
+                        "sigma_max": 5.0,
+                        "wrapping_boundary": 1.0
+                    }
+                }
+            },
+            "loss_fn": {
+                "_target_": "mattergen.common.loss.MaterialsLoss",
+                "d3pm_hybrid_lambda": 0.01,
+                "include_atomic_numbers": true,
+                "include_cell": true,
+                "include_pos": true,
+                "reduce": "sum",
+                "weights": {
+                    "atomic_numbers": 1.0,
+                    "cell": 1.0,
+                    "pos": 0.1
+                }
+            },
+            "model": {
+                "_target_": "mattergen.adapter.GemNetTAdapter",
+                "property_embeddings_adapt": {
+                    "Log_rate": {
+                        "_target_": "mattergen.property_embeddings.PropertyEmbedding",
+                        "name": "Log_rate",
+                        "unconditional_embedding_module": {
+                            "_target_": "mattergen.property_embeddings.EmbeddingVector",
+                            "hidden_dim": 512
+                        },
+                        "conditional_embedding_module": {
+                            "_target_": "mattergen.diffusion.model_utils.NoiseLevelEncoding",
+                            "d_model": 512
+                        },
+                        "scaler": {
+                            "_target_": "mattergen.common.utils.data_utils.StandardScalerTorch"
+                        }
+                    }
+                },
+                "atom_type_diffusion": "mask",
+                "denoise_atom_types": true,
+                "gemnet": {
+                    "_target_": "mattergen.common.gemnet.gemnet_ctrl.GemNetTCtrl",
+                    "atom_embedding": {
+                        "_target_": "mattergen.common.gemnet.layers.embedding_block.AtomEmbedding",
+                        "emb_size": 512,
+                        "with_mask_type": true
+                    },
+                    "cutoff": 7.0,
+                    "emb_size_atom": 512,
+                    "emb_size_edge": 512,
+                    "latent_dim": 512,
+                    "max_cell_images_per_dim": 5,
+                    "max_neighbors": 50,
+                    "num_blocks": 4,
+                    "num_targets": 1,
+                    "otf_graph": true,
+                    "regress_stress": true,
+                    "scale_file": "/scratch/amlt_code/mattergen/common/gemnet/gemnet-dT.json",
+                    "condition_on_adapt": [
+                        "Log_rate"
+                    ]
+                },
+                "hidden_dim": 512,
+                "property_embeddings": {}
+            },
+            "pre_corruption_fn": {
+                "_target_": "mattergen.property_embeddings.SetEmbeddingType",
+                "dropout_fields_iid": false,
+                "p_unconditional": 0.2
+            }
+        }
+    },
+    "adapter": {
+        "pretrained_name": "mattergen_base",
+        "model_path": null,
+        "load_epoch": "last",
+        "full_finetuning": true,
+        "adapter": {
+            "_target_": "mattergen.adapter.GemNetTAdapter",
+            "property_embeddings_adapt": {
+                "Log_rate": {
+                    "_target_": "mattergen.property_embeddings.PropertyEmbedding",
+                    "name": "Log_rate",
+                    "unconditional_embedding_module": {
+                        "_target_": "mattergen.property_embeddings.EmbeddingVector",
+                        "hidden_dim": 512
+                    },
+                    "conditional_embedding_module": {
+                        "_target_": "mattergen.diffusion.model_utils.NoiseLevelEncoding",
+                        "d_model": 512
+                    },
+                    "scaler": {
+                        "_target_": "mattergen.common.utils.data_utils.StandardScalerTorch"
+                    }
+                }
+            },
+            "atom_type_diffusion": "mask",
+            "denoise_atom_types": true,
+            "gemnet": {
+                "_target_": "mattergen.common.gemnet.gemnet_ctrl.GemNetTCtrl",
+                "atom_embedding": {
+                    "_target_": "mattergen.common.gemnet.layers.embedding_block.AtomEmbedding",
+                    "emb_size": 512,
+                    "with_mask_type": true
+                },
+                "cutoff": 7.0,
+                "emb_size_atom": 512,
+                "emb_size_edge": 512,
+                "latent_dim": 512,
+                "max_cell_images_per_dim": 5,
+                "max_neighbors": 50,
+                "num_blocks": 4,
+                "num_targets": 1,
+                "otf_graph": true,
+                "regress_stress": true,
+                "scale_file": "/scratch/amlt_code/mattergen/common/gemnet/gemnet-dT.json",
+                "condition_on_adapt": [
+                    "Log_rate"
+                ]
+            },
+            "hidden_dim": 512,
+            "property_embeddings": {}
+        }
+    }
+}
+/mnt/tank/scratch/ndavydov/mattergen/.venv/lib/python3.10/site-packages/lightning_fabric/plugins/environments/slurm.py:165: PossibleUserWarning: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python3 /mnt/tank/scratch/ndavydov/mattergen/.venv/bin/matt ...
+  rank_zero_warn(
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/1
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 1 processes
+----------------------------------------------------------------------------------------------------
+
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6]
+/mnt/tank/scratch/ndavydov/mattergen/.venv/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Fitting property scalers: 100%|███████████████████████████████████████████████████████| 157/157 [00:01<00:00, 91.98it/s]
+
+  | Name             | Type            | Params
+-----------------------------------------------------
+0 | diffusion_module | DiffusionModule | 48.8 M
+-----------------------------------------------------
+48.8 M    Trainable params
+22        Non-trainable params
+48.8 M    Total params
+195.042   Total estimated model params size (MB)
+Sanity Checking: 0it [00:00, ?it/s]/mnt/tank/scratch/ndavydov/mattergen/.venv/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:432: PossibleUserWarning: The dataloader, val_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 256 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/mnt/tank/scratch/ndavydov/mattergen/.venv/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:432: PossibleUserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 256 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Epoch 29: 100%|█| 157/157 [01:16<00:00,  2.07it/s, v_num=0, loss_train_step=2.110, pos_train_step=10.20, cell_train_step`Trainer.fit` stopped: `max_epochs=30` reached.
+Epoch 29: 100%|█| 157/157 [01:16<00:00,  2.06it/s, v_num=0, loss_train_step=2.110, pos_train_step=10.20, cell_train_step
+(base) ndavydov@aichem:/mnt/tank/scratch/ndavydov/mattergen/mattergen$

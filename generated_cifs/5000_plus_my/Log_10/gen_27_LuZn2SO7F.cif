@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LuZn2SO7F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.53666100
+_cell_length_b   4.55135500
+_cell_length_c   6.06576900
+_cell_angle_alpha   89.93469900
+_cell_angle_beta   90.03897600
+_cell_angle_gamma   90.97469100
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LuZn2SO7F
+_chemical_formula_sum   'Lu1 Zn2 S1 O7 F1'
+_cell_volume   125.22749279
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.69138200  0.70843300  0.19748700  1
+  S  S1  1  0.19367900  0.20626800  0.44066000  1
+  O  O2  1  0.37922700  0.38200400  0.23841100  1
+  O  O3  1  0.45596100  0.94566700  0.44003000  1
+  Zn  Zn4  1  0.68960000  0.71023200  0.68051800  1
+  O  O5  1  0.01780100  0.02300300  0.23783400  1
+  O  O6  1  0.01839500  0.02360900  0.64301500  1
+  Lu  Lu7  1  0.21047400  0.19099000  0.94001500  1
+  O  O8  1  0.51932900  0.88080700  0.93953000  1
+  O  O9  1  0.93416900  0.46797000  0.44226500  1
+  O  O10  1  0.37881800  0.38301000  0.64293500  1
+  F  F11  1  0.89770500  0.50336600  0.94143100  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Sr12Ca4ZnO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.58813500
+_cell_length_b   5.59930100
+_cell_length_c   23.25441000
+_cell_angle_alpha   90.02322500
+_cell_angle_beta   89.99156700
+_cell_angle_gamma   90.10830900
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr12Ca4ZnO3
+_chemical_formula_sum   'Sr12 Ca4 Zn1 O3'
+_cell_volume   727.62097976
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.29237300  0.72220900  0.74115100  1
+  Ca  Ca1  1  0.28937200  0.72242200  0.12053500  1
+  Sr  Sr2  1  0.79296600  0.72128900  0.25188400  1
+  Sr  Sr3  1  0.79343200  0.22235600  0.86532300  1
+  Sr  Sr4  1  0.79242600  0.22315800  0.39135000  1
+  Sr  Sr5  1  0.79200300  0.22200700  0.61245300  1
+  Ca  Ca6  1  0.29104800  0.72095000  0.84853100  1
+  O  O7  1  0.79085200  0.72267300  0.62209600  1
+  Sr  Sr8  1  0.29201600  0.72113800  0.63106700  1
+  Sr  Sr9  1  0.29263700  0.21915100  0.24685100  1
+  Sr  Sr10  1  0.29416800  0.22066400  0.99481100  1
+  Sr  Sr11  1  0.79257200  0.72210200  0.51010900  1
+  Sr  Sr12  1  0.78935500  0.72209700  0.73150100  1
+  Ca  Ca13  1  0.79084600  0.22265500  0.11990700  1
+  O  O14  1  0.79258100  0.22182200  0.50301100  1
+  Sr  Sr15  1  0.29218100  0.22126700  0.49914000  1
+  Sr  Sr16  1  0.29148100  0.22199400  0.74561900  1
+  Ca  Ca17  1  0.29141500  0.72460300  0.37530700  1
+  Zn  Zn18  1  0.79120600  0.72307500  0.11979700  1
+  Sr  Sr19  1  0.79241400  0.71750500  0.98644000  1

@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Ca2TbLuBeNbHO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.09955400
+_cell_length_b   3.14363800
+_cell_length_c   10.42130500
+_cell_angle_alpha   89.91707000
+_cell_angle_beta   90.09205300
+_cell_angle_gamma   89.88940800
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2TbLuBeNbHO8
+_chemical_formula_sum   'Ca2 Tb1 Lu1 Be1 Nb1 H1 O8'
+_cell_volume   101.54347391
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.35609300  0.89546600  0.41180500  1
+  Nb  Nb1  1  0.35666100  0.89435500  0.14034000  1
+  Ca  Ca2  1  0.35385500  0.89591600  0.67732200  1
+  O  O3  1  0.35448300  0.89980600  0.97911000  1
+  O  O4  1  0.85806000  0.89493300  0.26595500  1
+  Lu  Lu5  1  0.85159700  0.39603900  0.55332500  1
+  O  O6  1  0.35436000  0.39713300  0.76822300  1
+  O  O7  1  0.85731600  0.39479100  0.09000300  1
+  Tb  Tb8  1  0.85411800  0.39538700  0.88714600  1
+  H  H9  1  0.85279100  0.39848700  0.66238600  1
+  Be  Be10  1  0.85586100  0.39593600  0.26013600  1
+  O  O11  1  0.85086400  0.89562500  0.53037100  1
+  O  O12  1  0.35856100  0.39440000  0.26668100  1
+  O  O13  1  0.85284400  0.89676000  0.76474700  1
+  O  O14  1  0.35364500  0.39884200  0.53322800  1

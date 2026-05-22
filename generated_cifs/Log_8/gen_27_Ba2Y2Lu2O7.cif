@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Ba2Y2Lu2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.34371800
+_cell_length_b   6.37472300
+_cell_length_c   7.98020600
+_cell_angle_alpha   76.03821400
+_cell_angle_beta   61.04976100
+_cell_angle_gamma   60.13019100
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Y2Lu2O7
+_chemical_formula_sum   'Ba2 Y2 Lu2 O7'
+_cell_volume   244.87603178
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.74280700  0.84697600  0.67008700  1
+  O  O1  1  0.21090200  0.42915600  0.19233100  1
+  Y  Y2  1  0.57413700  0.42843700  0.93289500  1
+  Y  Y3  1  0.33293500  0.42683700  0.40769400  1
+  Ba  Ba4  1  0.78425500  0.76717800  0.17027600  1
+  Lu  Lu5  1  0.16252100  0.00872400  0.67033000  1
+  Ba  Ba6  1  0.12387100  0.08759700  0.16989100  1
+  O  O7  1  0.35624100  0.81750200  0.85635600  1
+  O  O8  1  0.69566300  0.42618200  0.14869800  1
+  O  O9  1  0.55092000  0.03681000  0.48360500  1
+  O  O10  1  0.95400600  0.42768500  0.67056100  1
+  O  O11  1  0.15875500  0.81846900  0.48519300  1
+  O  O12  1  0.74688400  0.03728800  0.85586700  1

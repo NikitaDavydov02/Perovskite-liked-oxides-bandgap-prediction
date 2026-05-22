@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_H7O4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.02319000
+_cell_length_b   3.92115400
+_cell_length_c   5.59518000
+_cell_angle_alpha   82.26149400
+_cell_angle_beta   95.24259600
+_cell_angle_gamma   92.92803600
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   H7O4
+_chemical_formula_sum   'H7 O4'
+_cell_volume   87.03001073
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  H  H0  1  0.69775700  0.42050600  0.92088400  1
+  H  H1  1  0.44400400  0.85524000  0.90521600  1
+  H  H2  1  0.20877000  0.77514400  0.26099300  1
+  H  H3  1  0.04780300  0.82947100  0.88896200  1
+  H  H4  1  0.57020100  0.31737500  0.38872300  1
+  H  H5  1  0.44746600  0.74666100  0.48736000  1
+  O  O6  1  0.73617200  0.14289700  0.39444900  1
+  O  O7  1  0.28247000  0.61710300  0.40397800  1
+  O  O8  1  0.24114100  0.97858600  0.93793100  1
+  O  O9  1  0.72277300  0.64153000  0.84326200  1
+  H  H10  1  0.89812900  0.22152400  0.51434600  1

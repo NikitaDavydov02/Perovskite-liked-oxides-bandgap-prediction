@@ -1,0 +1,49 @@
+# generated using pymatgen
+data_Sr2Nb2Bi3ClO11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.91000000
+_cell_length_b   3.91000000
+_cell_length_c   18.49600000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2Nb2Bi3ClO11
+_chemical_formula_sum   'Sr2 Nb2 Bi3 Cl1 O11'
+_cell_volume   282.76869760
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr_fix1  1  0.50000000  0.50000000  0.73255000  0.5
+  Bi  Sr_fix1  1  0.50000000  0.50000000  0.73255000  0.5
+  Sr  Sr_fix1  1  0.50000000  0.50000000  0.26745000  0.5
+  Bi  Sr_fix1  1  0.50000000  0.50000000  0.26745000  0.5
+  Sr  Sr_fix3  1  0.00000000  0.00000000  0.60115000  0.5
+  Bi  Sr_fix3  1  0.00000000  0.00000000  0.60115000  0.5
+  Sr  Sr_fix3  1  0.00000000  0.00000000  0.39885000  0.5
+  Bi  Sr_fix3  1  0.00000000  0.00000000  0.39885000  0.5
+  Nb  Ta1  1  0.00000000  0.00000000  0.88102000  1.0
+  Nb  Ta1  1  0.00000000  0.00000000  0.11898000  1.0
+  Bi  Bi1  1  0.50000000  0.50000000  0.00000000  1.0
+  Cl  Cl1  1  0.50000000  0.50000000  0.50000000  1.0
+  O  O1  1  0.00000000  0.50000000  0.89514000  1.0
+  O  O1  1  0.50000000  0.00000000  0.89514000  1.0
+  O  O1  1  0.00000000  0.50000000  0.10486000  1.0
+  O  O1  1  0.50000000  0.00000000  0.10486000  1.0
+  O  O2  1  0.00000000  0.50000000  0.66400000  1.0
+  O  O2  1  0.50000000  0.00000000  0.66400000  1.0
+  O  O2  1  0.00000000  0.50000000  0.33600000  1.0
+  O  O2  1  0.50000000  0.00000000  0.33600000  1.0
+  O  O3  1  0.00000000  0.00000000  0.78513000  1.0
+  O  O3  1  0.00000000  0.00000000  0.21487000  1.0
+  O  O4  1  0.00000000  0.00000000  0.00000000  1.0

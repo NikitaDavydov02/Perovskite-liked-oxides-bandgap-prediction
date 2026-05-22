@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Ca3O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.54497600
+_cell_length_b   3.54477700
+_cell_length_c   9.59078000
+_cell_angle_alpha   79.33988800
+_cell_angle_beta   79.33223100
+_cell_angle_gamma   59.90312300
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca3O
+_chemical_formula_sum   'Ca3 O1'
+_cell_volume   101.86484771
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.93088800  0.58688300  0.05139100  1
+  Ca  Ca1  1  0.71762700  0.37048500  0.69383700  1
+  Ca  Ca2  1  0.14892400  0.80261100  0.39974800  1
+  O  O3  1  0.43359500  0.08855900  0.54833700  1

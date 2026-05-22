@@ -1,0 +1,155 @@
+
+#======================================================================
+# CRYSTAL DATA
+#----------------------------------------------------------------------
+data_VESTA_phase_1
+
+_chemical_name_common                  'sm_isp_SD1241786-standardized_unitcell'
+_cell_length_a                         3.853000
+_cell_length_b                         3.853000
+_cell_length_c                         29.780001
+_cell_angle_alpha                      90.000000
+_cell_angle_beta                       90.000000
+_cell_angle_gamma                      90.000000
+_cell_volume                           442.102229
+_space_group_name_H-M_alt              'P 1'
+_space_group_IT_number                 1
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_type_symbol
+   O1         1.0     0.000000     0.500000     0.128500    Uiso  ? O
+   O1         1.0     0.000000     0.500000     0.871500    Uiso  ? O
+   O1         1.0     0.500000     0.000000     0.128500    Uiso  ? O
+   O1         1.0     0.500000     0.000000     0.871500    Uiso  ? O
+   O1         1.0     0.500000     0.000000     0.628500    Uiso  ? O
+   O1         1.0     0.500000     0.000000     0.371500    Uiso  ? O
+   O1         1.0     0.000000     0.500000     0.628500    Uiso  ? O
+   O1         1.0     0.000000     0.500000     0.371500    Uiso  ? O
+   O2         1.0     0.000000     0.000000     0.062200    Uiso  ? O
+   O2         1.0     0.000000     0.000000     0.937800    Uiso  ? O
+   O2         1.0     0.500000     0.500000     0.562200    Uiso  ? O
+   O2         1.0     0.500000     0.500000     0.437800    Uiso  ? O
+   Ti1        1.0     0.000000     0.000000     0.141550    Uiso  ? Ti
+   Ti1        1.0     0.000000     0.000000     0.858450    Uiso  ? Ti
+   Ti1        1.0     0.500000     0.500000     0.641550    Uiso  ? Ti
+   Ti1        1.0     0.500000     0.500000     0.358450    Uiso  ? Ti
+   O3         1.0     0.000000     0.000000     0.200100    Uiso  ? O
+   O3         1.0     0.000000     0.000000     0.799900    Uiso  ? O
+   O3         1.0     0.500000     0.500000     0.700100    Uiso  ? O
+   O3         1.0     0.500000     0.500000     0.299900    Uiso  ? O
+   K1         1.0     0.000000     0.000000     0.291930    Uiso  ? K
+   K1         1.0     0.000000     0.000000     0.708070    Uiso  ? K
+   K1         1.0     0.500000     0.500000     0.791930    Uiso  ? K
+   K1         1.0     0.500000     0.500000     0.208070    Uiso  ? K
+   La1        1.0     0.000000     0.000000     0.427750    Uiso  ? La
+   La1        1.0     0.000000     0.000000     0.572250    Uiso  ? La
+   La1        1.0     0.500000     0.500000     0.927750    Uiso  ? La
+   La1        1.0     0.500000     0.500000     0.072250    Uiso  ? La
+   O4         1.0     0.000000     0.500000     0.000000    Uiso  ? O
+   O4         1.0     0.500000     0.000000     0.000000    Uiso  ? O
+   O4         1.0     0.500000     0.000000     0.500000    Uiso  ? O
+   O4         1.0     0.000000     0.500000     0.500000    Uiso  ? O
+   Ti2        1.0     0.000000     0.000000     0.000000    Uiso  ? Ti
+   Ti2        1.0     0.500000     0.500000     0.500000    Uiso  ? Ti
+
+#======================================================================
+# CRYSTAL DATA
+#----------------------------------------------------------------------
+data_VESTA_phase_2
+
+_chemical_name_common                  'sm_isp_SD1241786-published_cell'
+_cell_length_a                         3.853(2)
+_cell_length_b                         3.853(2)
+_cell_length_c                         29.78(2)
+_cell_angle_alpha                      90.000000
+_cell_angle_beta                       90.000000
+_cell_angle_gamma                      90.000000
+_cell_volume                           442.102229
+_space_group_name_H-M_alt              'I 4/m m m'
+_space_group_IT_number                 139
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+   '-x, -y, -z'
+   '-x, -y, z'
+   'x, y, -z'
+   '-y, x, z'
+   'y, -x, -z'
+   'y, -x, z'
+   '-y, x, -z'
+   '-x, y, -z'
+   'x, -y, z'
+   'x, -y, -z'
+   '-x, y, z'
+   'y, x, -z'
+   '-y, -x, z'
+   '-y, -x, -z'
+   'y, x, z'
+   'x+1/2t, y+1/2t, z+1/2t'
+   '-x+1/2t, -y+1/2t, -z+1/2t'
+   '-x+1/2t, -y+1/2t, z+1/2t'
+   'x+1/2t, y+1/2t, -z+1/2t'
+   '-y+1/2t, x+1/2t, z+1/2t'
+   'y+1/2t, -x+1/2t, -z+1/2t'
+   'y+1/2t, -x+1/2t, z+1/2t'
+   '-y+1/2t, x+1/2t, -z+1/2t'
+   '-x+1/2t, y+1/2t, -z+1/2t'
+   'x+1/2t, -y+1/2t, z+1/2t'
+   'x+1/2t, -y+1/2t, -z+1/2t'
+   '-x+1/2t, y+1/2t, z+1/2t'
+   'y+1/2t, x+1/2t, -z+1/2t'
+   '-y+1/2t, -x+1/2t, z+1/2t'
+   '-y+1/2t, -x+1/2t, -z+1/2t'
+   'y+1/2t, x+1/2t, z+1/2t'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_type_symbol
+
+#======================================================================
+# CRYSTAL DATA
+#----------------------------------------------------------------------
+data_VESTA_phase_3
+
+_chemical_name_common                  'sm_isp_SD1241786-niggli_reduced_cell'
+_cell_length_a                         3.853000
+_cell_length_b                         3.853000
+_cell_length_c                         15.137200
+_cell_angle_alpha                      97.311996
+_cell_angle_beta                       97.311996
+_cell_angle_gamma                      90.000000
+_cell_volume                           221.050898
+_space_group_name_H-M_alt              'P 1'
+_space_group_IT_number                 1
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_type_symbol
