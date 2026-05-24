@@ -4,7 +4,7 @@ This project is aimed at developing an AI model for predicting band gap energy a
 
 # Requirements
 
-The project uses Python 3.14.3 and packages listed in "requirements.txt". In addition, one has to obtain to obtain Materials Project API key since it is used throughout the project. API key should be assigned to API_KEY variable whenever it is requitred.
+The project uses Python 3.14.3 and packages listed in "requirements.txt". In addition, one has to obtain Materials Project API key since it is used throughout the project. API key should be assigned to API_KEY variable whenever it is requitred.
 
 # Data
 
